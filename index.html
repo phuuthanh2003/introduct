@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- link icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+      integrity="sha512-ZnR2wlLbSbr8/c9AgLg3jQPAattCUImNsae6NHYnS9KrIwRdcY9DxFotXhNAKIKbAXlRnujIqUWoXXwqyFOeIQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Profile Card</title>
+    <script
+      src="https://kit.fontawesome.com/82a85080f6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <header class="box_header">
+          <div class="icon">
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+
+          <div class="yourFile">
+            <p style="font-size: 23px;">My Profile</p>
+          </div>
+
+          <div class="icon">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+        </header>
+
+        <section class="box_info">
+          <div class="avatar">
+            <img src="image/avtt.jpg" alt="" />
+            <input type="file" name="" id="form_file" />
+          </div>
+
+          <div class="info">
+            <p class="name">Phùng Hữu Thành</p>
+            <p class="job">Developer</p>
+          </div>
+
+          <label for="form_file" class="edit">
+            <i class="fa-solid fa-pen-to-square"></i>
+          </label>
+        </section>
+
+        <aside class="box_content">
+          <setction class="status">
+            <span class="stt">My Status:</span>
+            <div class="myStt">
+              <div class="details active">
+                <i class="bi bi-book"></i>
+                <span>Study</span>
+              </div>
+
+              <div class="details">
+                <i class="fa-solid fa-star"></i>
+                <span>Hooby</span>
+              </div>
+
+              <div class="details">
+                <i class="bi bi-code-slash"></i>
+                <span>Code</span>
+              </div>
+            </div>
+          </setction>
+
+          <div class="idea">
+            <nav class="dashboard first">
+              <span class="stt">Study</span>
+              <div class="adventure">
+                <div class="menu">
+                  <div class="circle">
+                    <div class="cursor">
+                      <i id="test" class="fa-solid fa-graduation-cap"></i>
+                    </div>
+
+                    <span style="font-size: 17px"
+                      >School:
+                      <p style="font-size: 14px">● FPT University</p>
+                    </span>
+                  </div>
+
+                  <div class="notify">Now</div>
+                </div>
+
+                <div class="menu">
+                  <div class="circle">
+                    <div class="cursor">
+                      <i class="bi bi-bezier2"></i>
+                    </div>
+
+                    <span style="font-size: 17px"
+                      >Skill:
+                      <p style="font-size: 14px">
+                        ● Open-Mindedness, Adaptability.
+                      </p>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="menu">
+                  <div class="circle">
+                    <div class="cursor">
+                      <i id="test" class="fa-solid fa-laptop-code"></i>
+                    </div>
+
+                    <span style="font-size: 17px"
+                      >Language:
+                      <p style="font-size: 14px">
+                        ● C, C++, Java, T-SQL, HTML, CSS, Javascript.
+                      </p></span
+                    >
+                  </div>
+                </div>
+              </div>
+            </nav>
+
+            <nav class="dashboard">
+              <span class="stt">Interest</span>
+              <div class="adventure">
+                <div class="menu">
+                  <div class="circle">
+                    <div class="cursor">
+                      <i class="bi bi-spotify"></i>
+                    </div>
+
+                    <span>Music</span>
+                  </div>
+
+                  <div class="notify">Most of the time</div>
+                </div>
+
+                <div class="menu">
+                  <div class="circle">
+                    <div class="cursor">
+                      <i class="bi bi-airplane-engines"></i>
+                    </div>
+
+                    <span>Traveling</span>
+                  </div>
+                </div>
+
+                <div class="menu">
+                  <div class="circle">
+                    <div class="cursor">
+                      <i class="bi bi-controller"></i>
+                    </div>
+
+                    <span>Games</span>
+                  </div>
+                </div>
+              </div>
+            </nav>
+
+            <nav class="dashboard">
+              <span class="stt">Code</span>
+              <div class="adventure">
+                <div class="menu">
+                  <div class="circle">
+                    <div class="cursor">
+                      <i class="bi bi-credit-card"></i>
+                    </div>
+
+                    <span>Payments</span>
+                  </div>
+
+                  <div class="notify">2 News</div>
+                </div>
+
+                <div class="menu">
+                  <div class="circle">
+                    <div class="cursor">
+                      <i class="bi bi-trophy"></i>
+                    </div>
+
+                    <span>Achievements</span>
+                  </div>
+                </div>
+
+                <div class="menu">
+                  <div class="circle">
+                    <div class="cursor">
+                      <i class="bi bi-shield-check"></i>
+                    </div>
+
+                    <span>Privacy</span>
+                  </div>
+
+                  <div class="notify">Action Needed</div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </aside>
+
+        <div class="footer">
+          <span class="stt">Contact With Me</span>
+          <div class="connect">
+            <span>
+              <a href="https://www.facebook.com/thanhphg89/"
+                ><i class="bi bi-facebook"></i>
+              </a>
+            </span>
+
+            <span>
+              <a href="https://www.instagram.com/hthanh.08/"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </span>
+
+            <span>
+              <a href="https://github.com/phuuthanh2003"
+                ><i class="bi bi-github"></i
+              ></a>
+            </span>
+
+            <span>
+              <a href="https://www.linkedin.com/in/phthanh0908/"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
